@@ -1,0 +1,27 @@
+{
+  "name": "graphql-node-js",
+  "version": "1.0.0",
+  "description": "Graph QL api with help of node-js and express framework",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarparth380/graphql-node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarparth380/graphql-node-js/issues"
+  },
+  "homepage": "https://github.com/kumarparth380/graphql-node-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
